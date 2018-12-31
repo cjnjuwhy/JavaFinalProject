@@ -169,7 +169,7 @@ pool.shutdown();
 
 **终端模式下运行截图**
 
-<video src="assets/屏幕录制 2018-12-31 上午10.21.40.mov"></video>
+![1-1](assets/1-1.gif)
 
 **终端模式下显示的每个Warrior的Log**
 
@@ -183,10 +183,9 @@ pool.shutdown();
 
 **可视化的战斗显示**
 
-<video src="assets/2-1.mov"></video>
-
-
+![2-1](assets/2-1.gif)
 
 **回放显示**
 
-<video src="assets/2-2.mov"></video>
+![2-2](assets/2-2.gif)
+
