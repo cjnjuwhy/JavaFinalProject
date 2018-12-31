@@ -9,18 +9,18 @@ public class Information {
 	public static final int MAX_ATTACK = 3;
 	public static final int DELAY = 1500;
 	
-	static final SimpleDateFormat LOG_FORMAT = new SimpleDateFormat("_MMdd");//设置日期格式
+	static final SimpleDateFormat LOG_FORMAT = new SimpleDateFormat("_MMdd_HHmm");//设置日期格式
 	public static final String DATE_FOR_FILENAME = LOG_FORMAT.format(new Date());// new Date()为获取当前系统时间
 	static final SimpleDateFormat TIME_FORMAT = new SimpleDateFormat("YYYY-MM-dd HH:mm");//设置日期格式
 	
 	static final String WORK_DIR = "";
 	static final String FORMATION_DIR = "";
-	public static final String LOG_DIR = "/Users/huanyu_wang/";
+	public static final String LOG_DIR = "./";//"/Users/huanyu_wang/";
 	
-	public static final String FILE_TO_READ = "/Users/huanyu_wang/BsttleLog_1229.txt";
+	public static final String FILE_TO_READ = "./BsttleLog_1231.txt";
 	public static final String FILE_TO_WRITE = "";
 	
-	public static final String PIC_DIR = "file:/Users/huanyu_wang/Final/pictures/";
+	public static final String PIC_DIR = "file:./pictures/";//"file:/Users/huanyu_wang/Final/pictures/";
 	public static final String BACKGROUND_PATH = PIC_DIR + "background.jpg";
 	public static final String WARRIOR_PATH[] = {
 			"",
